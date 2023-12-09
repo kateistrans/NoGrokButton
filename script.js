@@ -10,7 +10,7 @@
 // @run-at       document-start
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // ==/UserScript==
-function ifElementExistsThen(selector, callback) {
+function ifElementExistsThen(selector, callback) { // thanks to https://github.com/NoNormalCreeper/X-to-Twitter for this after much frustration
     var checker = setInterval(function() {
         if ($(selector).length) {
             clearInterval(checker);

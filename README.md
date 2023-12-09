@@ -1,2 +1,1 @@
-# NoGrokButton
-Remove the damn Grok button from Twitter!!
+Tampermonkey script to remove the Grok button from twitter.
